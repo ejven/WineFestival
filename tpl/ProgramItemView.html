@@ -1,0 +1,25 @@
+<div class="topcoat-navigation-bar">
+    <div class="topcoat-navigation-bar__item left quarter">
+        <a class="topcoat-icon-button--quiet back-button" href="#">
+          <span class="topcoat-icon topcoat-icon--back"></span>
+        </a>
+    </div>
+    <div class="topcoat-navigation-bar__item center half">
+        <h1 class="topcoat-navigation-bar__title">Detail akce</h1>
+    </div>
+</div>
+
+<div class='details'>
+	<div class='detail-info'>
+	    <h1><%= name %></h1>
+	    <h2><%= time %></h2>
+	    <div class="desc"><%= desc %></div>
+    </div>
+    <div class="topcoat-list__container ">
+        <ul class="topcoat-list list actions">
+            <li class="topcoat-list__item"><a href="#employees/<%= id %>/map"><p>Ukázat na mapě</p><p><%= place %></p><div class="action-icon icon-location"></div></a></li>
+            <li class="topcoat-list__item"><a href="#employees/<%= id %>/map"><p>Připomenout 15 min předem</p><p><%= time %></p><div class="action-icon icon-remind"></div></a></li>
+        </ul>
+    </div>
+</div>
+        
